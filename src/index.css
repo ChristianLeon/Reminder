@@ -138,3 +138,56 @@ body {
 button, input, textarea { font: inherit; }
 button { -webkit-tap-highlight-color: transparent; }
 * { box-sizing: border-box; }
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --background: #070d19;
+  --foreground: #edf3ff;
+}
+
+.theme-dark {
+  background: #070d19 !important;
+  color: #edf3ff !important;
+}
+
+.theme-dark > div,
+.theme-dark [class*="bg-[#f8faff]"],
+.theme-dark [class*="bg-[#f4f7fb]"] {
+  background-color: #0a1221 !important;
+}
+
+.theme-dark [class*="bg-white"] {
+  background-color: #111b2d !important;
+}
+
+.theme-dark [class*="bg-[#f5f7fb]"],
+.theme-dark [class*="bg-[#f6f8fc]"],
+.theme-dark [class*="bg-[#f2f4f8]"],
+.theme-dark [class*="bg-[#eef1f6]"],
+.theme-dark [class*="bg-[#edf1f7]"] {
+  background-color: #18243a !important;
+}
+
+.theme-dark input,
+.theme-dark textarea,
+.theme-dark select {
+  background-color: #0d1728 !important;
+  border-color: #2a3953 !important;
+  color: #edf3ff !important;
+}
+
+.theme-dark [class*="border-[#e"],
+.theme-dark [class*="border-[#d"] {
+  border-color: #283750 !important;
+}
+
+.theme-dark [class*="text-[#172034]"],
+.theme-dark [class*="text-[#33415c]"],
+.theme-dark [class*="text-[#52617a]"] {
+  color: #e7eefc !important;
+}
+
+.theme-dark nav {
+  background-color: rgb(13 23 40 / 95%) !important;
+  border-color: #26354d !important;
+}
