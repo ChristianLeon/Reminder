@@ -10,7 +10,7 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       injectRegister: null,
-      includeAssets: ["icon.svg", "icon-192.png", "icon-512.png"],
+      includeAssets: ["favicon-32.png", "apple-touch-icon.png", "icon-192.png", "icon-512.png", "logo-reminder.png"],
       manifest: {
         name: "Reminder · Tu mente en claro",
         short_name: "Reminder",
